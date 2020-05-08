@@ -15,14 +15,14 @@ const Home = () => {
     <div>
       <Genders />
       <Quality />
-      <Products active="Men" />
+      <Products active='Men' />
       <ShoeTypes />
       <Carousel />
       <LifeStyle />
-      <Products active="Women" />
+      <Products active='Women' />
       <ShoeTypes />
-      <Artisan/>
-      <Celebrities/>
+      <Artisan />
+      <Celebrities />
       <Reviews />
       <Blog />
       <Feature />

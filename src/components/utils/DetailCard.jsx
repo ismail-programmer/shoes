@@ -1,14 +1,17 @@
-import React from "react";
-import BtnLink from "./BtnLink";
+import React from 'react';
+import BtnLink from './BtnLink';
 
-const DetailCard = ({ text, shoeType,bgImage,myClass }) => {
+const DetailCard = ({ text, shoeType, bgImage, myClass }) => {
   return (
-    <div className={`detail_wrapper ${myClass}`} style={{backgroundImage: bgImage}}>
-      <div className="content">
-        <div className="cheering_text">{text}</div>
-        <div className="shoe_type">{shoeType}</div>
-        <div className="btn_wrapper">
-          <BtnLink location="/" name="Shop Now" />
+    <div
+      className={`detail_wrapper ${myClass}`}
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div className='content'>
+        <div className='cheering_text'>{text}</div>
+        <div className='shoe_type'>{shoeType}</div>
+        <div className='btn_wrapper'>
+          <BtnLink location='/' name='Shop Now' />
         </div>
       </div>
     </div>
